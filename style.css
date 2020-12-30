@@ -1,0 +1,233 @@
+body{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+	
+
+.heading{
+	display: flex;                  /* establish flex container */
+  	flex-direction: row;            /* default value; can be omitted */
+  	/*flex-wrap: nowrap;              /* default value; can be omitted */
+  	justify-content: space-between; /* switched from default (flex-start, see below) */
+  	background-color: lightblue; 
+  	height: 110px;	
+  	flex-wrap: wrap;
+
+  	
+	font-size: 13px;
+	color: black;
+	
+}
+
+
+.heading1 {
+	margin: 10px;
+		
+}
+
+.heading1 li, .heading2 li {
+	display:inline;
+	margin: 10px;
+	/*margin-left: 10px;*/
+	
+}
+
+.heading2{
+	margin-right: 10px;
+}
+
+.heading2 li {
+	/*display:inline;*/
+
+}
+
+
+.heading>div,
+.heading:before {
+  flex: 1;
+  min-width: 100%;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.adsContainer{
+	
+	clear: both;
+	
+}
+
+.ads{
+	background-color: right;
+	/*clear: both;	*/
+	height: 20px;
+	width: 50px;
+	
+	
+
+	/*position: static;*/
+
+	border: 2px solid black;
+  	/*outline: #4CAF50 solid 10px;*/
+  	
+  	text-align: center;
+  	
+
+
+}
+
+
+
+.navigation{
+
+	display: flex;                  /* establish flex container */
+  	flex-direction: row;            /* default value; can be omitted */
+  	flex-wrap: nowrap;            /* default value; can be omitted */
+  	background-color: red; 
+  	width: 100%;
+  	height: 50px;	
+  	vertical-align: top;
+  	justify-content: center;
+  	
+	
+}
+
+
+
+.navItem li {
+	display:inline;
+	margin: 20px;
+	color: white;
+	font-weight: bold;	
+	
+}
+
+.div1{
+	background: black;
+	height: 24px;
+	margin-left: 80%;
+	text-align: center;
+	color: white;
+	padding: 0.5%;
+
+}
+
+.bodyElm{
+	width: 100%;
+	background-color: green;
+	margin: 0;
+	padding:0; 
+	display: flex;
+	 
+}
+
+.artDetails{
+	width: 100%;
+	background-color: brown;	
+	margin: 10px;	
+
+}
+
+.newsArticles{
+	width: 80%;
+	background-color: blue;
+	display: block;
+	padding:0 0 0.4em 0 ;
+}
+
+
+.artLayout{
+	display: flex;
+}
+
+.image img{
+	width: 70px;
+	height: 70px;
+	border-radius:50%;
+
+
+}
+
+.picCaption{
+	text-align: center;
+	font-size: 8px;
+}
+
+.paragraphStyle{
+	margin-right: 20px;
+	text-align: justify;
+}
+
+
+.btn{
+	background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;  
+    text-align: center;
+    padding:1em 0 1em 0 ; 
+    margin-right: 20px;
+    font-weight: bolder;
+    width: 40%;
+     	
+}
+
+
+.artPreview{
+	width: 20%;
+	background-color: yellow;
+	/*margin: 10px;*/
+
+}
+
+.ulArticle{
+	list-style-position: outside;
+  	padding: 0;
+  	/*border-left: solid 2px red;*/
+  	list-style-type: none;
+}
+
+.artTitle{
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.artPrev{
+	display: -webkit-box;
+  	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;  
+ 	overflow: hidden;
+}
+.NewsSnap {	
+	/*margin: 10px;*/
+	margin: 8px;
+  	padding: 0;
+  	
+
+
+}
+
+.artPreview p{
+	margin: 8px;
+	font-weight: bold;
+}
+
+.NewsSnap li {
+	list-style-type: none;
+	list-style-position: inside;
+	padding:0 0 0.8em 0 ;
+
+}
+
+
+.foot{
+	background-color: lightblue; 
+
+}
+
+
+.footText{
+	text-align: center;
+}
