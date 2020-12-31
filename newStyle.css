@@ -299,7 +299,7 @@ body {
 
 .m-pub-text {
   vertical-align: middle;
-  font-size: 1.1rem;
+  font-size: 0.99rem;
 }
 
 
@@ -441,6 +441,7 @@ br {
   display: flex;
   flex-direction: column;
   padding: 0;
+  margin-right: 15px;
 }
 
 /* Dernieres nouvelles: Starts  */
