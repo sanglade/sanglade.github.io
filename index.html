@@ -15,16 +15,61 @@
 			<div class="container-head">		
 				<div class="page-head">
 					<div class="page-header">			
-					<p class="bs">La voix impartiale</p>				
-					<a class="a-header a-header-left" href="#">login</a>
-					<a class="a-header" href="#">Enregistrement</a>
-					<p class="bs">Date courante:</p>
-					<p class="bs"></p>			
+						<p class="bs">La voix impartiale</p>			
+						<a class="a-header a-header-left" href="#">login</a>
+						<a class="a-header" href="#">Enregistrement</a>
+						<p class="bs">Date courante:</p>
+						<p class="bs"></p>			
+					</div>
+					<div class="pub-wrap">
+						<div class="pub-head">
+							<p class="pub-text">Espaces publicitaires</p>
+						</div>
+					</div>
+					
 				</div>
-				<div class="pub-head">
-					<p >Espaces publicitaires</p>
-				</div>
+
+					<!--New menu: begins -->
+
+			<div class="navbar">   
+
+  				<div class="subnav">
+    					<button class="subnavbtn">Actualités <i class="fa fa-caret-down"></i></button>
+    				<div class="subnav-content">
+    					<a href="#home">Politique</a> 
+    					<a href="#home">Culture</a> 
+    					<a href="#home">Sante</a> 
+    					<a href="#home">Economie</a> 
+    				</div>
+ 				</div>
+  
+  				<div class="subnav">
+    					<button class="subnavbtn">Rubriques <i class="fa fa-caret-down"></i></button>
+    				<div class="subnav-content">
+      					<a href="#company">Semaine en bref</a>
+      					<a href="#team">Opinion</a>      
+      					<a href="#careers">Religion</a>
+      					<a href="#careers">Bon à savoir</a>
+      
+    				</div>
+  				</div> 
+
+  				<div class="subnav">
+    					<button class="subnavbtn">A propos <i class="fa fa-caret-down"></i></button>
+    				<div class="subnav-content">
+      					<a href="#link1">Ligne editoriale du site</a>
+      					<a href="#link2">Notre equipe</a>
+      					<a href="#link3">Emplois</a>
+      
+    				</div>
+  				</div>
+  						<a class="push-left" href="#contact">Contact</a>
+
 			</div>
+
+					<!--New menu: ends -->
+					<!--Old menu -->
+					<!-- 
 			<nav class="menu-container">
 				<ul class="navItem">
 					<li><a class="nav-text" href="">Actualités</a></li>
@@ -38,10 +83,11 @@
 					<li><a class="nav-text" href="">La voix du peuple</a></li>	
 				</ul>
 			</nav>
+					-->
 		</div>
 
 
-	<!-- Menu for Mobile -->
+				<!-- Menu for Mobile -->
 			<div class="topnav">
   				<a class="p-a" href="#home" class="active">La voix impartiale</a>
   			<div id="myLinks">
@@ -108,6 +154,12 @@
 					<!-- Mobile display : starts-->
 			<div class="media-show">
 				
+				<div class="m-pub-wrap">
+						<div class="m-pub-head">
+							<p class="m-pub-text">SBA-Multi Service la solution efficace à vos problemes financiers. Contactez-nous ajourd'hui meme. Tel: (+1) 786-247-2127</p>
+						</div>
+				</div>
+
 				<div class="gallery-container">
 					<figure class="box item2"> <img  src="C:\Users\sanglade\Desktop\newsSite\Pictures\restavek.jpg">
 						<figcaption class="pic-caption"> <p class="text-caption">L'esclavage des enfants en Haiti, le probleme le plus négligé dans la societé Haitienne</p>
@@ -133,63 +185,150 @@
 					<figure class="box item5"> <img  src="C:\Users\sanglade\Desktop\newsSite\Pictures\beau.jpg">
 						<figcaption class="pic-caption"> <p class="text-caption">Bois Joli est le nom du nouveau porte-parole de l'actrice Marjorie Boozhen </p>
 						</figcaption>
-					</figure>	
+					</figure>
 
-					
+								<!-- News Mobile version: starts -->
+
+					<div class="m-tabControl">	
+
+						<div class="btn-container">
+							<button class="tablink" onclick="openPage('News', this)" id="defaultOpen">Dernières nouvelles</button>
+							<button class="tablink" onclick="openPage('Read', this)" >Les plus lues</button>
+
+						</div>
+
+							
+
+						<div id="News" class="tabcontent">
+				  					<p class="head-style" >les dernières nouvelles de l'actualité en bref</p>
+				  					
+				  						<hr class="h-line"> 
+				  					
+				  					
+				  				
+				  				<div class="m-title-container">
+						
+										<!-- -->
+
+									
+				   					<div class="m-title">
+				   						<br>
+				   						<br>
+				   						<a class="p-style" href="#">Jovenel Moise ne partira pas le 7 Fevrier 2021, selon une source proche du président. 
+				   							<p class="news-time">05:02 AM</p>
+				   						</a>	
+				   						     					
+				   					</div>
+				   					<div class="m-title">
+				   						<a class="p-style" href="#">Timafille Mapute donne naissance à sept (7) enfants d'un seul accouchement 
+				   							<p class="news-time">05:10 AM</p>
+				   						</a>	
+				   						     					
+				   					</div>
+
+				   					<div class="m-title">
+				   						<a class="p-style" href="#">Zabulon Petit-Chien promet de reduire la pauvreté extreme s'il est élu aux presidentielles de 2021 
+				   							<p class="news-time">05:45 AM</p>
+				   						</a>	
+				   						     					
+				   					</div>
+
+				   					<div class="m-title">
+				   						<a class="p-style" href="#">Zegrouillette Maddyshon, pourra-t-elle tenir sa promesse? 
+				   							<p class="news-time">06:06 AM</p>
+				   						</a>	
+				   						     					
+				   					</div>
+				   					
+				   					
+				   					<div class="m-title">
+				   						<a class="p-style" href="#">Perlina Grand-Trou promet de se rendre toute nue, au palais national prochainement. 
+				   							<p class="news-time">06:28 AM</p>
+				   						</a>	
+				   						     					
+				   					</div>
+
+				   					
+
+												<!-- -->		
+								</div>
+				
+
+									</div>
+
+									<div id="Read" class="tabcontent">
+							  			<h3>Read</h3>
+							  			<p>Some news this fine day!</p> 
+									</div>
+
+								</div>
+								
+		
+				 
+								<!--NewsMobile version: ends-->						
 				
 				</div>
+
+						   		
+
 	
 			</div>
 					<!-- Mobile display : ends-->
 
 			<!-- Main container to display body of the site-->
-		</div> 
-			<div class="slide-wrapper">
-				<div class="title-wrapper">
-					<div class="slide-title">
-						<p>Dernières nouvelles de l'actualité en bref</p>
-					</div> 
-					<!-- -->
+		</div > 
 
-					<div class="carouselContainer">
-   						<div class="carouselImgs slide1">
-     						<p class="p-style">
-     						Selon une source digne de confiance Jovenel Moise ne compte pas laisser le pouvoir le 7 février 2021 comme le réclame ses opposants. Plus de details vous seront communiqué au moment opportun.
-     						</p>
-   						</div>
-   						<div class="carouselImgs slide2">
-     						<p class="p-style">
-     						Timafille Mapute a donné naissance ce mardi 29 Decembre 2020 à sept enfants à l'hopital Désespoir situé non loin de la mairie de Port-au-Prince. Le mari a rendu l'ame d'une crise cardiaque apres que le medecin lui a communique la nouvelle. 
-     						</p>
-   						</div>
-   						<div class="carouselImgs slide3">
-     						<p class="p-style">
-     						Zabulon Pieunu l'un des dirigeants du parti politique Ann Piye Sa a declare ce mardi a Fond Cochon que l'heure est venue de donner une nouvelle direction du pays. Le responsable croit que son parti avec son programme decennal prevoit de diminuer considerablement la classe moyenne. Mais la question c'est ou il va les mettre.
-     						</p>
-   							</div>
-   						<div class="carouselImgs slide4">
-     						<p class="p-style">
-     						Zegrouillette Langue-Longue, une farouche opposante du gouvernement Moise/Jouthe, promet de ne pas se baigner ni meme faire sa toilette intime tout autsnt que Jovenel reste au pouvoir.
-     						</p>
-   						</div>
-   						<div class="carouselImgs slide5">
-     						<p class="p-style">
-     						Tileon Tete-Longue a confirmé, ce jeudi dans les locaux de son parti a Port-au-Prince, qu'il se presentera dans les prochaines presidentielles d'Haiti tout en revelant qu'il sera élu sans grandes difficultés.
-     						</p>
-   						</div>
-   						<span class="prev" id="prev"> < </span>
-   						<span class="next" id="next"> > </span>
+			<div class="slide-hide">
+				<div class="slide-wrapper">
+					<div class="title-wrapper">
+						<div class="slide-title">
+							<p>Dernières nouvelles de l'actualité en bref</p>
+						</div> 
+								<!-- -->
+
+						<div class="carouselContainer">
+	   						<div class="carouselImgs slide1">
+	     						<p class="p-style">
+	     						Selon une source digne de confiance Jovenel Moise ne compte pas laisser le pouvoir le 7 février 2021 comme le réclame ses opposants. Plus de details vous seront communiqué au moment opportun.
+	     						</p>
+	   						</div>
+	   						<div class="carouselImgs slide2">
+	     						<p class="p-style">
+	     						Timafille Mapute a donné naissance ce mardi 29 Decembre 2020 à sept enfants à l'hopital Désespoir situé non loin de la mairie de Port-au-Prince. Le mari a rendu l'ame d'une crise cardiaque apres que le medecin lui a communique la nouvelle. 
+	     						</p>
+	   						</div>
+	   						<div class="carouselImgs slide3">
+	     						<p class="p-style">
+	     						Zabulon Pieunu l'un des dirigeants du parti politique Ann Piye Sa a declare ce mardi a Fond Cochon que l'heure est venue de donner une nouvelle direction du pays. Le responsable croit que son parti avec son programme decennal prevoit de diminuer considerablement la classe moyenne. Mais la question c'est ou il va les mettre.
+	     						</p>
+	   							</div>
+	   						<div class="carouselImgs slide4">
+	     						<p class="p-style">
+	     						Zegrouillette Langue-Longue, une farouche opposante du gouvernement Moise/Jouthe, promet de ne pas se baigner ni meme faire sa toilette intime tout autsnt que Jovenel reste au pouvoir.
+	     						</p>
+	   						</div>
+	   						<div class="carouselImgs slide5">
+	     						<p class="p-style">
+	     						Tileon Tete-Longue a confirmé, ce jeudi dans les locaux de son parti a Port-au-Prince, qu'il se presentera dans les prochaines presidentielles d'Haiti tout en revelant qu'il sera élu sans grandes difficultés.
+	     						</p>
+	   						</div>
+	   						<span class="prev" id="prev"> < </span>
+	   						<span class="next" id="next"> > </span>
+						</div>
+
+										<!-- -->		
 					</div>
-
-		<!-- -->		
+		
 				</div>
-	
 			</div>
+			
+		
 
 		</div>
 	</div>
 </div>	
 <script src="menu.js"> async</script>
 <script src="page-load.js"> async</script>
+<script src="tabControl.js"> async</script>
 </body>
 </html>
